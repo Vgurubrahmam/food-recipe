@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.main-container {
+    font-family: "Roboto";
+    
+}
+
+.food-search-header {
+    border-width: 0px;
+    border-style: solid;
+    border-color: #d5cdcd;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+.food-logo {
+    
+    width:20%;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.search-input {
+    border-radius: 3px;
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d5cdcd;
+    font-size: 18px;
+}
+
+.search-results {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.result-item {
+    margin-bottom: 20px;
+}
+
+.result-title {
+    font-size: 22px;
+}
+
+.link-description {
+    font-size: 15px;
+    color: #444444;
+}
+
+.result-url {
+    color: #006621;
+    text-decoration: none;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 20%;
+
+}
+
+.ingredients {
+    width: 100px;
+}
+
+.card-style {
+    height:230px;
+    width: 180px;
+    background-color: #fff;
+
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.container-bg {
+    height: 430px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-bottom: 30px;
+
+
+}
+
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.container-bg {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.card-style:hover {
+    transform: scale(1.05);
+}
+
+/* styles.css */
+.card {
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.card.active {
+    transform: scale(1.1);
+    border-color: #000;
+    background-color: #f0f0f0;
+}
+.ingredents_style{
+    color: #444444;
+    font-weight: bold;
+    padding: 10px;
+}
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
