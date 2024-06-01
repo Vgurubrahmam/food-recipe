@@ -93,8 +93,8 @@
 
 /* Hide scrollbar for IE, Edge, and Firefox */
 .container-bg {
-    min-height: calc(100vh - 200px); 
-    max-height: calc(100vh - 200px); 
+    min-height: calc(100vh - 180px); 
+    max-height: calc(100vh - 180px); 
     overflow-y: auto; 
     overflow-x: hidden;
     margin-bottom: 10px;
