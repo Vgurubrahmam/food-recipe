@@ -82,7 +82,7 @@
 
 .container-bg {
     height:auto;
-    overflow-y:130px;
+    overflow-y:scroll;
     overflow-x: hidden;
     
 
