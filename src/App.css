@@ -97,7 +97,7 @@
     max-height: calc(100vh - 240px); 
     overflow-y: auto; 
     overflow-x: hidden;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .card-style:hover {
