@@ -61,15 +61,32 @@ function FetchComponent() {
     <div className="main-container">
       <div className="food-search-header text-center">
         <img
-          className="food-logo"
+          className="food-logo d-none d-sm-block"
           src="https://i.pinimg.com/originals/32/44/54/3244546413efce41965cbfe4e04b7ba5.jpg"
           alt="Wiki Logo"
         />
         <br />
         <input
-          placeholder="Type a keyword and press Enter to search"
+          placeholder="Search food item..."
           type="search"
-          className="search-input w-100"
+          className="search-input w-100 d-none d-sm-block"
+          id="searchInput"
+          value={searchItem}
+          onChange={handleSearchInput}
+          onKeyDown={searchFood}
+        />
+      </div>
+      <div className="food-search-header d-flex flex-row">
+        <img
+          className="food-logo d-block d-sm-none"
+          src="https://i.pinimg.com/originals/32/44/54/3244546413efce41965cbfe4e04b7ba5.jpg"
+          alt="Wiki Logo"
+        />
+       
+        <input
+          placeholder="Search food item..."
+          type="search"
+          className="search-input w-100 d-sm-none"
           id="searchInput"
           value={searchItem}
           onChange={handleSearchInput}
@@ -96,7 +113,8 @@ function FetchComponent() {
                 onClick={() => handleCardClick(index)}
               >
                 <img src={hit.recipe.image} alt={hit.recipe.label} className="img" />
-                <p className="col-12 text-center">{hit.recipe.label}</p>
+                <p className="col-12 link-description 
+                text-center">{hit.recipe.label}</p>
               </div>
             ))}
           </div>
@@ -121,7 +139,7 @@ function FetchComponent() {
                 ))}
               </ul>
               <h6 className='ingredents_style'>Diet Labels:</h6>
-              <p>{selectedRecipe?.dietLabels.join(', ')}</p>
+              <p className='pt-2'>{selectedRecipe?.dietLabels.join(', ')}</p>
             </div>
             <div className="modal-footer">
               <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
