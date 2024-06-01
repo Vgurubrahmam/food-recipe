@@ -81,7 +81,7 @@
 }
 
 .container-bg {
-    height: 430px;
+    height:auto;
     overflow-y:130px;
     overflow-x: hidden;
     
