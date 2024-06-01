@@ -78,7 +78,7 @@ function FetchComponent() {
       </div>
       <div className="food-search-header d-flex flex-row">
         <img
-          className="food-logo d-block d-sm-none m-2"
+          className="food-logo d-block d-sm-none mr-4"
           src="https://i.pinimg.com/originals/32/44/54/3244546413efce41965cbfe4e04b7ba5.jpg"
           alt="Wiki Logo"
         />
