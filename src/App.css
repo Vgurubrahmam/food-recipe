@@ -28,7 +28,7 @@
 }
 
 .search-input {
-    border-radius: 3px;
+    border-radius: 8px;
     padding: 10px;
     border-width: 1px;
     border-style: solid;
@@ -73,7 +73,7 @@
 }
 
 .card-style {
-    height:230px;
+    height:auto;
     width: 180px;
     background-color: #fff;
 
