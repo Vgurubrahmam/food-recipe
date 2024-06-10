@@ -160,7 +160,7 @@ function FetchComponent() {
             ))
           ) : (
             <div className="no-items d-flex flex-row justify-content-center  align-items-center">
-              <p className="text-center">Search for food itmes..</p>
+              <p className="textnone">Search for food itmes..</p>
             </div>
           )}
         </div>

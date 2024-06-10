@@ -2,7 +2,9 @@
 
 .main-container::-webkit-scrollbar {
     font-family: "Roboto";
-    
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    display: none;
     
 }
 
@@ -14,7 +16,7 @@
     padding-right: 20px;
     padding-bottom: 0px;
     padding-left: 20px;
-    /* margin: 10px; */
+    margin: 10px;
 }
 
 .food-logo {
@@ -91,11 +93,11 @@
 
 /* Hide scrollbar for IE, Edge, and Firefox */
 .container-bg {
-    /* min-height: calc(100vh - 180px); 
+    min-height: calc(100vh - 180px); 
     max-height: calc(100vh - 180px); 
     overflow-y: auto; 
     overflow-x: hidden;
-    margin-bottom: 10px; */
+    margin-bottom: 10px;
 }
 
 .card-style:hover {
@@ -136,23 +138,9 @@
   .itemname{
     font-size: 15px;
   }
-  .text-center{
-    color: #000;
+  .textnone{
+    font-size: 200%;
+    font-weight: bold;
+
+
   }
-  .no-items {
-    height: 400px;
-    font-weight: 700;
-    font-size: 35px;
-  }
-  .items-container{
-    /* height: 50vh;
-    min-height: calc(100vh - 180px); 
-    max-height: calc(100vh - 180px); 
-    overflow-y: auto; 
-    overflow-x: hidden;
-    margin-bottom: 10px; */
-  }
-  .spinner{
-    margin-top: auto;
-  }
-  
